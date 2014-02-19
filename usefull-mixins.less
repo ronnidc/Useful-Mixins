@@ -64,12 +64,11 @@
 
 
 // Fonts
-.font-size(@sizeValue, @line-height:inherit) {
+.font-size(@sizeValue) {
   @pxValue: (@sizeValue * 10);
   @remValue: @sizeValue;
   font-size: ~"@{pxValue}px";
-  font-size: ~"@{remValue}rem"; 
-  line-height:@line-height;
+  font-size: ~"@{remValue}rem";
   //<html> font-size should be set to 62.5% eg. html{font-size:62.5%;}
 }
 
