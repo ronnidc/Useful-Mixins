@@ -1,5 +1,16 @@
 @base-url: '/Components/Project/Design';
 
+// Ratio
+.ratio(@width: 4, @height: 3) {
+  &:before {
+    @formula: (@height * 100) / @width ;
+    @percent: '%' ;
+    content:"" ;
+    display: block ;
+    padding-top: ~'@{formula}@{percent}' ;
+  }
+}
+
 //Hide only visually, but not for screenreaders
 .visuallyhidden() {
   width: 1px;
