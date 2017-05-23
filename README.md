@@ -1,4 +1,4 @@
 Usefull-Mixins.less
 ===================
 
-A useful set of mixins for the pre-processor LESS http://lesscss.org
+A useful set of mixins for the pre-processor LESS & SASS http://lesscss.org & http://sass-lang.com
