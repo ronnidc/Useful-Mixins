@@ -1,0 +1,9 @@
+// Ratio
+@mixin ratio($width: 4, $height: 3) {
+  &:before {
+    $formula: ($height * 100) / $width ;
+    padding-top: $formula+0% ;
+    content:"" ;
+    display: block ;
+  }
+}
